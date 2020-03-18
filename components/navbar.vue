@@ -6,10 +6,10 @@
     </label>
     <input id="show-menu" type="checkbox" />
     <ul id="menu">
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/tom">Tom</nuxt-link>
-      <nuxt-link to="/events">Events</nuxt-link>
-      <nuxt-link to="/create">Create</nuxt-link>
+      <nuxt-link to="/" class="navvy">Home</nuxt-link>
+      <nuxt-link to="/tom" class="navvy">Tom</nuxt-link>
+      <nuxt-link to="/events" class="navvy">Events</nuxt-link>
+      <nuxt-link to="/create" class="navvy">Create</nuxt-link>
     </ul>
   </nav>
 </template>
@@ -17,11 +17,11 @@
 <style>
 .mobile-menu {
   display: block;
-  width: 100%;
   background: #8aa8bd /*e0b88fc99393e5d1a4dcc591EFD3A3*/;
   line-height: 1.6em;
   font-weight: 400;
   width: 100%;
+  height: 50px;
   text-align: center;
   position: relative;
   margin: 0 auto;
@@ -33,7 +33,7 @@
   padding-left: 0;
   text-align: center;
   width: 100%;
-  position: absolute;
+  /*position: absolute;*/
   background: #8aa8bd;
 }
 

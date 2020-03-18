@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <navbar/>
+    <navbar />
     <nuxt />
   </div>
 </template>
 
 <script>
-import navbar from './components/navbar.vue'
+import navbar from '~/components/navbar.vue'
 export default {
   components: {
     navbar
@@ -58,5 +58,4 @@ img.home {
     width: 100%;
   }
 }
-
 </style>
