@@ -49,3 +49,29 @@
     /></nuxt-link>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'The Dales',
+      meta: [
+        { name: 'twitter:title', content: 'The Dales' },
+        { name: 'twitter:description', content: 'Dale Family Website' },
+        {
+          name: 'twitter:image',
+          content: 'https://tom.imgix.net/thedales.svg?fm=png'
+        },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'og:title', content: 'The Dales' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:url', content: 'https://thedales.me' },
+        {
+          name: 'og:image',
+          content: 'https://tom.imgix.net/thedales.svg?fm=png'
+        }
+      ]
+    }
+  }
+}
+</script>
