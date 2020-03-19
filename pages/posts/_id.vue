@@ -49,7 +49,15 @@ export default {
       ]
     }
   },
-  /* head() {
+  computed: {
+    post() {
+      return this.posts.find((post) => post.id === this.id)
+    },
+    relatedPosts() {
+      return this.posts.filter((post) => post.id !== this.id)
+    }
+  },
+  head() {
     return {
       title: this.post.title,
       meta: [
@@ -68,14 +76,6 @@ export default {
           content: 'https://tom.imgix.net/thedales.svg?fm=png'
         }
       ]
-    }
-  }, */
-  computed: {
-    post() {
-      return this.posts.find((post) => post.id === this.id)
-    },
-    relatedPosts() {
-      return this.posts.filter((post) => post.id !== this.id)
     }
   }
 }

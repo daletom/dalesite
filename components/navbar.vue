@@ -8,8 +8,11 @@
     <ul id="menu">
       <nuxt-link to="/" class="navvy">Home</nuxt-link>
       <nuxt-link to="/tom" class="navvy">Tom</nuxt-link>
-      <nuxt-link to="/events" class="navvy">Events</nuxt-link>
-      <nuxt-link to="/create" class="navvy">Create</nuxt-link>
+      <nuxt-link to="/heather" class="navvy">Heather</nuxt-link>
+      <nuxt-link to="/zeek" class="navvy">Zeek</nuxt-link>
+      <nuxt-link to="/izzy" class="navvy">Izzy</nuxt-link>
+      <nuxt-link to="/gallery" class="navvy">Gallery</nuxt-link>
+      <nuxt-link to="/videos" class="navvy">Videos</nuxt-link>
     </ul>
   </nav>
 </template>
