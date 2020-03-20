@@ -27,7 +27,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~plugins/vue-gallery.client.js',
+    '~plugins/vue-hls-player.client.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */

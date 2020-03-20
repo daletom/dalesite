@@ -12,10 +12,16 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "bootstrap-vue": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6",
     "bootstrap": "^4.1.3",
-    "@nuxtjs/axios": "^5.3.6"
+    "bootstrap-vue": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "vplayer": "^1.2.0",
+    "vue-gallery": "^2.0.1",
+    "vue-hls-player": "^1.0.6",
+    "vue-plyr": "^6.0.4",
+    "vue-video-player": "^5.0.2",
+    "vue-videojs7": "^0.1.5"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

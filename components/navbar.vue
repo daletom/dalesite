@@ -12,7 +12,7 @@
       <nuxt-link to="/zeek" class="navvy">Zeek</nuxt-link>
       <nuxt-link to="/izzy" class="navvy">Izzy</nuxt-link>
       <nuxt-link to="/gallery" class="navvy">Gallery</nuxt-link>
-      <nuxt-link to="/videos" class="navvy">Videos</nuxt-link>
+      <nuxt-link to="/video" class="navvy">Video</nuxt-link>
     </ul>
   </nav>
 </template>
