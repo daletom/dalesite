@@ -26,7 +26,7 @@ export default {
         poster:
           'https://images.mux.com/GvgMD02G02mv0200fDiP71cLF9RrbRlEq8V9/thumbnail.jpg?',
         playsinline: true,
-        title: '视频播放器',
+        title: 'Will add',
         controls: 'progress,durration,volume'
       },
       vOption: {
@@ -38,7 +38,7 @@ export default {
         poster:
           'https://images.mux.com/GvgMD02G02mv0200fDiP71cLF9RrbRlEq8V9/thumbnail.jpg?',
         playsinline: true,
-        title: '视频播放器',
+        title: 'will add',
         controls: 'progress,durration,volume'
       }
     }
