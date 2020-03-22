@@ -149,16 +149,55 @@
           </amp-video>
         </amp-story-grid-layer>
       </amp-story-page>
-      <amp-story-bookend
-        src="bookend.json"
-        layout="nodisplay"
-      ></amp-story-bookend>
+      <amp-story-bookend layout="nodisplay">
+        <script type"application/json" v-html="json" />
+      </amp-story-bookend>
     </amp-story>
   </amp-body>
 </template>
 
-<style amp-boilerplate>
-body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none} </style>
+<script>
+export default {
+  amp: true,
+  data() {
+    json: JSON.stringify({
+      bookendVersion: 'v1.0',
+      shareProviders: ['facebook', 'twitter', 'email'],
+      components: [
+        {
+          type: 'heading',
+          text: 'More Sections on Zeek'
+        },
+        {
+          type: 'portrait',
+          title: "Zeek's First Halloween",
+          url: '/halloween/',
+          image:
+            'https://tom.imgix.net/halloween.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur',
+          category: 'Halloween'
+        },
+        {
+          type: 'portrait',
+          title: "Zeek's First Birthday",
+          url: '/birthday/',
+          image:
+            'https://tom.imgix.net/birthday_zeek_birthday.HEIC?auto=format,compress&w=720&h=1280&fit=fill&fill=blur',
+          category: 'Halloween'
+        },
+        {
+          type: 'cta-link',
+          links: [
+            {
+              text: 'Go Back Home',
+              url: '/'
+            }
+          ]
+        }
+      ]
+    })
+  }
+}
+</script>
 
 <style amp-custom>
 amp-story {
