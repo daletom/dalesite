@@ -3,7 +3,7 @@
     <h1>Zeek</h1>
     <h2>Click an image to see a story.</h2>
 
-    <nuxt-link to="/disney"
+    <nuxt-link to="/disney/"
       ><img
         src="https://tom.imgix.net/disney_zeek_dance.jpg?w=1000&h=1000&border=10%2C73ff0000&fit=crop&auto=format%2Ccompress"
         alt="Tom"
@@ -18,7 +18,7 @@
         sizes="(min-width:1240px) 450px, 90vw"
     /></nuxt-link>
 
-    <nuxt-link to="/halloween"
+    <nuxt-link to="/halloween/"
       ><img
         src="https://tom.imgix.net/halloween.jpg?fit=crop&border=10%2C73ff0000&h=1000&w=1000&auto=format%2Ccompress"
         alt="Heather"
@@ -33,7 +33,7 @@
         sizes="(min-width:1240px) 450px, 90vw"
     /></nuxt-link>
 
-    <nuxt-link to="/birthday"
+    <nuxt-link to="/birthday/"
       ><img
         src="https://tom.imgix.net/birthday_zeek_birthday.HEIC?w=1000&h=1000&border=10%2C73ff0000&fit=crop&auto=format%2Ccompress"
         alt="Zeek"
