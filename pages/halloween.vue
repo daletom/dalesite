@@ -2,7 +2,7 @@
   <amp-body>
     <amp-story
       standalone
-      title="Zeek's Disney Trip"
+      title="Zeek's First Halloween"
       publisher="Tom Dale"
       publisher-logo-src="https://tom.imgix.net/krennic_profile.png?w=150&h=150&fit=crop&&crop=focalpoints&fp-z=2&fp-y=.2&auto=format,compress"
       poster-portrait-src="https://tom.imgix.net/disney_zeek_back.HEIC?auto=format,compress&w=720&h=1280&fit=crop&crop=edges"
@@ -10,7 +10,7 @@
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/disney_zeek_dance.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=faces,edges"
+            src="https://tom.imgix.net/halloween_zeek_pumpkin.HEIC?auto=format,compress&w=720&h=1280&fit=crop&crop=faces,edges"
             width="720"
             height="1280"
             layout="responsive"
@@ -18,8 +18,7 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>Disney Dance Parties</h1>
-          <p>Zeek was never afraid to partake in a dance party at Disney!</p>
+          <h1>Enjoying the Pumpkin Patch</h1>
         </amp-story-grid-layer>
       </amp-story-page>
       <amp-story-page id="page1">
@@ -27,17 +26,17 @@
           <amp-video
             width="720"
             height="1280"
-            poster="https://thedales.imgix.net/1wBQ2ffadnxQVhHTWeAnf4exw4rKHaHB/thumbnail.png?w=360&h=640&fit=crop&auto=format,compress&q=60"
+            poster="https://image.mux.com/z8f01xr00lwDNM01iXhJC1wjZTpipg9165U/thumbnail.png?width=214&height=121&fit_mode=pad"
             layout="responsive"
             autoplay
           >
             <source
               type="application/vnd.apple.mpegurl"
-              src="https://stream.mux.com/1wBQ2ffadnxQVhHTWeAnf4exw4rKHaHB.m3u8"
+              src="https://stream.mux.com/z8f01xr00lwDNM01iXhJC1wjZTpipg9165U.m3u8"
             />
             <source
               type="video/mp4"
-              src="https://tom.imgix.net/disney_zeek_dance1.mp4"
+              src="https://tom.imgix.net/halloween_zeek_monster.mp4"
             />
           </amp-video>
         </amp-story-grid-layer>
@@ -45,7 +44,7 @@
       <amp-story-page id="page2">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/disney_zeek_kinglouie.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
+            src="https://tom.imgix.net/halloween.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=faces,edges"
             width="720"
             height="1280"
             layout="responsive"
@@ -53,8 +52,8 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>Jungle Book</h1>
-          <p>Zeek loves his new pal King Louie!</p>
+          <h1>The Frankenstein Family</h1>
+          <p>He's Alive!!!</p>
         </amp-story-grid-layer>
       </amp-story-page>
       <amp-story-page id="page3">
@@ -62,17 +61,17 @@
           <amp-video
             width="720"
             height="1280"
-            poster="https://thedales.imgix.net/a2BfnCauOT9gN2OjnzCswQ5kmDJXaDYI/thumbnail.png?w=360&h=640&fit=crop&auto=format,compress&q=60"
+            poster="https://image.mux.com/B3gTNsYySA2KSpNQsHjsE9nSwIa5coYS/thumbnail.png?width=214&height=121&fit_mode=pad"
             layout="responsive"
             autoplay
           >
             <source
               type="application/vnd.apple.mpegurl"
-              src="https://stream.mux.com/a2BfnCauOT9gN2OjnzCswQ5kmDJXaDYI.m3u8"
+              src="https://stream.mux.com/B3gTNsYySA2KSpNQsHjsE9nSwIa5coYS.m3u8"
             />
             <source
               type="video/mp4"
-              src="https://tom.imgix.net/disney_zeek_dance2.mp4"
+              src="https://tom.imgix.net/halloween_zeek_treat1.mp4"
             />
           </amp-video>
         </amp-story-grid-layer>
@@ -80,7 +79,7 @@
       <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/disney_zeek_toystory.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
+            src="https://tom.imgix.net/halloween_zeek_group.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
             width="720"
             height="1280"
             layout="responsive"
@@ -88,7 +87,8 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>Toy Story Land</h1>
+          <h1>Trick or Treat</h1>
+          <p>The Whole Gang!</p>
         </amp-story-grid-layer>
       </amp-story-page>
       <amp-story-page id="page5">
@@ -96,51 +96,17 @@
           <amp-video
             width="720"
             height="1280"
-            poster="https://image.mux.com/vCwbnC8dywmnvKVbVN9G6vuJ36hKp2v01/thumbnail.png?width=214&height=121&fit_mode=pad"
+            poster="https://image.mux.com/ehJjOl1SA00hzjtJRRhOfeWT1y3cqGg6q/thumbnail.png?width=214&height=121&fit_mode=pad"
             layout="responsive"
             autoplay
           >
             <source
               type="application/vnd.apple.mpegurl"
-              src="https://stream.mux.com/vCwbnC8dywmnvKVbVN9G6vuJ36hKp2v01.m3u8"
+              src="https://stream.mux.com/ehJjOl1SA00hzjtJRRhOfeWT1y3cqGg6q.m3u8"
             />
             <source
               type="video/mp4"
-              src="https://tom.imgix.net/disney_zeek_toystory.mp4"
-            />
-          </amp-video>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page6">
-        <amp-story-grid-layer template="fill">
-          <amp-img
-            src="https://tom.imgix.net/disney_zeek_minnie.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
-            width="720"
-            height="1280"
-            layout="responsive"
-          >
-          </amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <h1>Hanging with Minnie</h1>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      <amp-story-page id="page7">
-        <amp-story-grid-layer template="fill">
-          <amp-video
-            width="720"
-            height="1280"
-            poster="https://image.mux.com/T48WBihqo6LwCkR6fQ9S00Q8pmuIa00AnH/thumbnail.png?width=214&height=121&fit_mode=padhttps://"
-            layout="responsive"
-            autoplay
-          >
-            <source
-              type="application/vnd.apple.mpegurl"
-              src="https://stream.mux.com/T48WBihqo6LwCkR6fQ9S00Q8pmuIa00AnH.m3u8"
-            />
-            <source
-              type="video/mp4"
-              src="https://tom.imgix.net/disney_zeek_fireworks.mp4"
+              src="https://tom.imgix.net/halloween_zeek_treat2.mp4"
             />
           </amp-video>
         </amp-story-grid-layer>
@@ -166,20 +132,20 @@ export default {
             text: 'More Sections on Zeek'
           },
           {
-            type: 'portrait',
-            title: "Zeek's First Halloween",
-            url: '/halloween/',
+            type: 'landscape',
+            title: "Zeek's Disney Trip",
+            url: 'https://thedales.me/disney/',
             image:
-              'https://tom.imgix.net/halloween.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur',
-            category: 'Halloween'
+              'https://tom.imgix.net/disney_zeek_castle.HEIC?auto=format,compress&w=720&h=1280&fit=fill&fill=blur',
+            category: 'Disney'
           },
           {
             type: 'portrait',
             title: "Zeek's First Birthday",
-            url: '/birthday/',
+            url: 'https://thedales.me/birthday/',
             image:
               'https://tom.imgix.net/birthday_zeek_birthday.HEIC?auto=format,compress&w=720&h=1280&fit=fill&fill=blur',
-            category: 'Halloween'
+            category: 'Birthday'
           },
           {
             type: 'cta-link',
