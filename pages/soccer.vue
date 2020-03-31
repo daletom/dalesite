@@ -2,15 +2,15 @@
   <amp-body>
     <amp-story
       standalone
-      title="Heather Just Bought a House"
+      title="Heather Loves Soccer"
       publisher="Tom Dale"
       publisher-logo-src="https://tom.imgix.net/krennic_profile.png?w=150&h=150&fit=crop&&crop=focalpoints&fp-z=2&fp-y=.2&auto=format,compress"
-      poster-portrait-src="https://tom.imgix.net/cunningham01.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=edges"
+      poster-portrait-src="https://tom.imgix.net/soccer_heather_little.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=edges"
     >
       <amp-story-page id="cover">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/cunningham01.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=faces,edges"
+            src="https://tom.imgix.net/soccer_heather_little.jpg?auto=format,compress&w=720&h=1280&fit=crop&crop=faces,edges"
             width="720"
             height="1280"
             layout="responsive"
@@ -80,7 +80,7 @@
       <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/house_heather_sanding.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
+            src="https://tom.imgix.net/disney_zeek_toystory.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
             width="720"
             height="1280"
             layout="responsive"
@@ -88,7 +88,7 @@
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-          <h1>Then She Started Construction!</h1>
+          <h1>Toy Story Land</h1>
         </amp-story-grid-layer>
       </amp-story-page>
       <amp-story-page id="page5">
@@ -96,17 +96,17 @@
           <amp-video
             width="720"
             height="1280"
-            poster="https://image.mux.com/tRmK3lwnn99L9bHMxbNOt22CSAT3PKBM/thumbnail.png?width=360&height=640&fit_mode=pad"
+            poster="https://image.mux.com/35g3W4KDBpZoQAmV8jRPPzZxJxJbO8Mo/thumbnail.png?width=360&height=640&fit_mode=pad"
             layout="responsive"
             autoplay
           >
             <source
               type="application/vnd.apple.mpegurl"
-              src="https://stream.mux.com/tRmK3lwnn99L9bHMxbNOt22CSAT3PKBM.m3u8"
+              src="https://stream.mux.com/35g3W4KDBpZoQAmV8jRPPzZxJxJbO8Mo.m3u8"
             />
             <source
               type="video/mp4"
-              src="https://stream.mux.com/tRmK3lwnn99L9bHMxbNOt22CSAT3PKBM/low.mp4"
+              src="https://stream.mux.com/35g3W4KDBpZoQAmV8jRPPzZxJxJbO8Mo/low.mp4"
             />
           </amp-video>
         </amp-story-grid-layer>

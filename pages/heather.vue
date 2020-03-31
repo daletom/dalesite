@@ -5,22 +5,40 @@
 
     <nuxt-link to="/house/"
       ><img
-        v-for="image in images"
-        :key="image.image"
-        :src="host + image"
+        :src="host + 'cristal.jpg?'"
         alt="New House"
         :srcset="
           host +
-            image +
+            'cristal.jpg?' +
             desktop +
             host +
-            image +
+            'cristal.jpg?' +
             ipad +
             host +
-            image +
+            'cristal.jpg?' +
             mobile +
             host +
-            image +
+            'cristal.jpg?' +
+            responsive
+        "
+        sizes="(min-width:1240px) 450px, 90vw"
+    /></nuxt-link>
+    <nuxt-link to="/soccer/"
+      ><img
+        :src="host + 'soccer_heather_little.jpg?'"
+        alt="New House"
+        :srcset="
+          host +
+            'soccer_heather_little.jpg?' +
+            desktop +
+            host +
+            'soccer_heather_little.jpg?' +
+            ipad +
+            host +
+            'soccer_heather_little.jpg?' +
+            mobile +
+            host +
+            'soccer_heather_little.jpg?' +
             responsive
         "
         sizes="(min-width:1240px) 450px, 90vw"
@@ -40,8 +58,8 @@ export default {
         'w=900&h=900&txtlineclr=ff0000&txtline=2&border=10%2C73ff0000&fit=crop&txtpad=80&txtsize=112&txtalign=botthedales%2Ccenter&txtclr=DCDCDC&auto=format%2Ccompress&crop=faces,entropy 900w,',
       responsive:
         'w=1200&h=1200&txtlineclr=ff0000&txtline=2&border=10%2C73ff0000&fit=crop&txtpad=80&txtsize=112&txtalign=botthedales%2Ccenter&txtclr=DCDCDC&auto=format%2Ccompress&crop=faces,entropy 1200w',
-      host: 'https://thedales.imgix.net/',
-      images: ['aKxSwKM3kgOqWfjRlgC38p00dBwS3Jn6D/thumbnail.png?']
+      host: 'https://tom.imgix.net/',
+      images: ['cristal.jpg?', 'soccer_heather_little.jpg?']
     }
   }
 }
