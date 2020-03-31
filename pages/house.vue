@@ -137,6 +137,10 @@ export default {
               {
                 text: 'Go Back Home',
                 url: '/'
+              },
+              {
+                text: 'Go to Heather',
+                url: '/heather'
               }
             ]
           }

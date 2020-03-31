@@ -51,7 +51,7 @@ img.home {
   float: left;
   width: 33%;
 }
-@media (max-width: 1240px) {
+@media (max-width: 740px) {
   img.home {
     display: block;
     float: none;

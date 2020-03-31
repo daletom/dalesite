@@ -32,7 +32,8 @@ export default {
    */
   plugins: [
     '~plugins/vue-gallery.client.js',
-    '~plugins/vue-hls-player.client.js'
+    '~plugins/vue-hls-player.client.js',
+    '~/plugins/main.js'
   ],
   /*
    ** Nuxt.js dev-modules

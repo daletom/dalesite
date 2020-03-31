@@ -153,6 +153,10 @@ export default {
               {
                 text: 'Go Back Home',
                 url: '/'
+              },
+              {
+                text: 'Go to Zeek',
+                url: '/zeek'
               }
             ]
           }
