@@ -45,7 +45,7 @@
       <amp-story-page id="page2">
         <amp-story-grid-layer template="fill">
           <amp-img
-            src="https://tom.imgix.net/disney_zeek_kinglouie.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
+            src="https://tom.imgix.net/soccer_heather_footgolf.jpg?auto=format,compress&w=720&h=1280&fit=fill&fill=blur"
             width="720"
             height="1280"
             layout="responsive"
